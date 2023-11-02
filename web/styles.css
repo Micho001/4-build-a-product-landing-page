@@ -1,0 +1,303 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+  /* overflow-x: hidden; */
+}
+
+#header-img{
+  width: 60px;
+  height: 30px
+}
+
+body{
+  background-color: #F6E1C3;
+  }
+  
+  header{
+    width: 100%;
+    background-color: #E9A178;
+    z-index: 999px;
+    margin-bottom: 500px;
+    top: 0;
+  }
+  
+  #nav-bar, h2, header{
+    position: fixed;
+  }
+  
+  header h2{
+    top: 0;
+    left: 70px;
+  }
+  
+  #nav-bar{
+    top: 0;
+    right: 0;
+  }
+  
+  nav ul{
+    display: flex;
+  }
+  
+  nav ul li{
+    margin-right: 7px;
+    width: 80px;
+    list-style-type: none;
+    padding: 4px;
+    color: #333;
+  }
+  
+  nav ul li:hover{
+    color: #A84448;
+    border-radius: 10px;
+  }
+  
+  #chicken{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #chicken li, #guides div, .guides1{
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  #sales{
+    margin-top: 60px;
+    z-index: -999;
+  }
+  
+  .align{
+    position: relative;
+    left: 20px 
+  }
+  
+  section ul{
+    padding-left: 20px 
+  }
+  
+  section ul li:hover{
+    cursor: pointer;
+    color: #333;
+  }
+  
+  section ul li.chicken{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  section ul li p{
+    font-size: 16px;
+    font-weight: normal;
+    color: black
+  }
+  
+  h4{
+    margin-left: 6px;
+  }
+  
+  code{
+    position: relative;
+    padding: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    left: 30px;
+  }
+  
+  hr{
+    margin: 2px 500px 10px 10px;
+    padding: 5px;
+    border: 1px dotted #FF9760;
+  }
+  
+  .steps{
+    text-decoration: underline;
+  }
+  
+  iframe{
+    margin: 8px;
+    width: 560px; 
+    height: 315px;
+  } 
+  
+  .info img{
+      width: 250;
+      height: 200px;
+    }
+  
+  code, li, p{
+    z-index: -999;
+  }
+
+  .raise{
+    margin: 5px 0 5px 10px;
+    padding: 5px;
+  }
+
+  #guides{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  footer{
+    position: relative;
+    margin: 10px 0 5px 20px;
+  }
+  
+  section a, footer a{
+    color: #333;
+  }
+  
+  #email{
+    outline: 0;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #FF9760;
+  }
+  
+  #submit{
+    font-size: 12px;
+    display: block;
+    margin: 12px;
+    padding: 2px;
+    width: 70px;
+    border-radius: 6px;
+    border: 1px solid #FF9760;
+  }
+  
+  @media (max-width: 770px){
+    #video{
+      margin: 8px;
+      width: 360px; 
+      height: 315px;
+    }
+
+    #chicken, #guides, .section{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    hr{
+    margin: 2px 300px 10px 10px;
+  }
+  
+  nav ul li{
+    margin-right: -10px;
+    width: 70px;
+  }
+}
+
+  
+  @media (max-width: 660px){
+    nav ul li{
+    display: block;
+    position: relative;
+    left: -150;
+    width: 100px;
+    top: 30px;
+    text-align: center;
+    background-color: #F6E1C3;
+    }
+  
+    hr{
+    margin: 2px 200px 10px 10px;
+    }
+  
+  }
+  
+  @media (max-width: 620px){
+    nav ul li{
+    left: -110;
+    width: 100px;
+    }
+  
+    hr{
+    margin: 2px 150px 10px 10px;
+    }
+  
+  }
+  @media (max-width: 580px){
+    nav ul li{
+    left: -70;
+    width: 100px;
+    }
+  
+    hr{
+    margin: 2px 150px 10px 10px;
+    }
+  
+  }
+  @media (max-width: 540px){
+    nav ul li{
+    left: -40;
+    }
+  
+    hr{
+    margin: 2px 80px 10px 10px;
+    }
+  
+    p{
+      margin-left: -10px;
+    }
+  
+  }
+  @media (max-width: 510px){
+    nav ul li{
+    left: -5;
+    }
+  }
+  @media (max-width: 475px){
+    nav ul li{
+    left: -100;
+    text-align: center;
+    width: 70px;
+    }
+  }
+  @media (max-width: 439px){
+    nav ul li{
+    left: -100;
+    text-align: center;
+    width: 64px;
+    }
+  
+    hr{
+    margin: 2px 20px 10px 10px;
+    }
+  }
+  @media (max-width: 412px){
+    nav ul li{
+    left: -60;
+    text-align: center;
+    width: 67px;
+    }
+  }
+  @media (max-width: 383px){
+    nav ul li{
+    left: -50;
+    text-align: center;
+    width: 64px;
+    }
+  
+    #video{
+    margin: 8px;
+      width: 300px; 
+      height: 315px;
+    }
+  
+  }

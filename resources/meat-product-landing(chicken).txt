@@ -1,0 +1,12 @@
+know how to raise them.
+	including both their food and their medicine
+purchase them (alive depends on either young or old)     IMAGES(ALIVE)
+know how to accurately season them (preparation)
+place videos that has to do with either BOILED, FIRED & GRILLED
+purchase them (either grilled, fried or boiled)		 IMAGES(PREPARED)
+
+dont forget also to include the price tags of the chicken too. 
+use table in implementing the prices
+
+add images to the type of chicken
+

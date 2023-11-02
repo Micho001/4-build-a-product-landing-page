@@ -1,0 +1,388 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken-product landing page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="https://i.ibb.co/S6HfV7x/c-logo.jpg" alt="c-logo" border="0" id="header-img" loading="lazy"/>
+      <h2>From farm to table</h2>
+      <nav id="nav-bar">
+        <ul>
+          <a class="nav-link" href="#sales"><li>Sales</li></a>
+          <a class="nav-link" href="#chicken"><li>Chicken</li></a>
+          <a class="nav-link" href="#purchase"><li>price list</li></a></a>
+          <a class="nav-link" href="#guides"><li>Guides</li></a>
+          <a class="nav-link" href="#purchase"><li>purchase</li></a>
+        </ul>
+      </nav>
+    </header>
+
+<section id="sales">
+    <hr>
+      <p>Raise, Train or Eat them for they are natures master piece</p>
+    <hr>
+
+  <h3>Want to raise your own?</h3>
+  <p> we got you covered. Available species</p>
+  <ul id="chicken">
+    <li class="chicken">
+      local chicken
+      <section class="info">
+        <img src="https://i.ibb.co/4RL9QJ7/Local-Chicken.jpg" alt="Local Chicken" loading="lazy">
+        <p>
+          Local chicken refers to chickens that are raised and sold within a specific region or locality. They are often considered to be more flavorful and healthier than commercially raised chickens.
+        </p>
+      </section>
+    </li>
+    <li class="chicken">
+      noiler
+       <section class="info">
+         <img src="https://i.ibb.co/tqvMd0p/Noiler.jpg" alt="Noiler" loading="lazy">
+         <p>
+           A noiler chicken is a breed of chicken that is specifically designed for meat production.
+         </p>
+       </section>
+    </li>
+    <li class="chicken">
+      agric chicken
+    <section class="info">
+      <img src="https://i.ibb.co/HzK6h7z/Agric-Chicken.jpg" alt="Agric Chicken" loading="lazy">
+      <p>
+        Agric chicken refers to chickens that are raised for meat production using intensive farming methods.
+      </p>
+    </section>
+    </li>
+    <li class="chicken">
+      plymouth rock
+      <section class="info">
+        <img src="https://i.ibb.co/NxjTd6K/Plymouth-Rock.jpg" alt="Plymouth Rock" loading="lazy">
+      <p>
+        The Plymouth Rock is an American breed of domestic chicken. It is a dual-purpose bird, raised both for its meat and for its brown eggs.
+      </p>
+    </section>
+    </li>
+    <li class="chicken">
+      broiler
+      <section class="info">
+        <img src="https://i.ibb.co/HN3jrHj/Broiler.jpg" alt="Broiler" loading="lazy">
+      <p>
+        A broiler chicken is a type of chicken that is raised specifically for meat production. They are typically ready for slaughter at around 6-8 weeks of age.
+      </p>
+    </section>
+    </li>
+    <li class="chicken">
+      jersey-giant
+      <section class="info">
+        <img src="https://i.ibb.co/M1v9fwr/Jersey-Giant.jpg" alt="Jersey-Giant" loading="lazy">
+      <p>
+        The Jersey Giant is an American breed of domestic chicken.  As the name suggests, it is a large breed, and is among the heaviest of all chicken breeds.
+      </p>
+    </section>
+    </li>
+  </ul>
+    <p>And they are all from a day old up to 5months</p>
+</section>
+
+<section id="guides">
+    <h4>Don't know to raise them?</h4>
+    <p>
+      A lot of people often ask how do I raise a day-old chicken or how can I even raise chicken. Many of them don't have any experience on poultry farming so here's a quick guide on how to raise a day old chicken and how to continue the process of raising a chicken be it male or a female
+    </p>
+<hr>
+<p class="steps"> How to raise a day old chicken start by stocking them...</p>
+<hr>
+<iframe src="https://www.youtube.com/embed/KLtgOAxVsqA?si=MoX2kHix-yXWtBTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video" loading="lazy"></iframe>
+<hr>
+
+<p class="steps">Do you really want to know the nerdy stuff about poultry?</p>
+<code>
+  its gonna be bumby ride hop on...
+</code>
+  <hr>
+  <iframe src="https://www.youtube.com/embed/xmyxl-wANmg?si=8Tak4afyBBzpKmCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video" loading="lazy"></iframe>
+  <hr>
+</p>
+
+<p>
+  Raising Chickens: Things You Need To Know!
+  <hr>
+  <iframe src="https://www.youtube.com/embed/wuOd5_M9yDQ?si=DFeXrCjPApPhQlpr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video" loading="lazy"></iframe>
+
+</p>
+
+<p>
+  want to know everything about their feeding? click <a href="https://be.chewy.com/how-to-raise-backyard-chickens-a-beginners-guide/">here</a> to read more
+</p>
+</section>
+
+  <footer id="purchase">
+    <h3>contact info...</h3>
+    <code>Email: Here's my <a href="mailto:Abdulojotulesuleiman@gmail.com">email</a>
+    </code>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>want to get tips on poultry and know more on the price list for the chickens?<br> simply fill your mail address below</p>
+          <label for="email">Email: <input type="email" id="email" placeholder="1234@hg.com" name="email"></label>
+          <input type="submit" id="submit">
+        </form>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+#header-img{
+  width: 60px;
+  height: 30px
+}
+
+body{
+  background-color: #F6E1C3;
+}
+
+header{
+  width: 100%;
+  background-color: #E9A178;
+  z-index: 999px;
+  margin-bottom: 500px;
+  top: 0;
+}
+
+#nav-bar, h2, header{
+  position: fixed;
+}
+
+header h2{
+  top: 0;
+  left: 70px;
+}
+
+#nav-bar{
+  top: 0;
+  right: 0;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  margin-right: 7px;
+  width: 80px;
+  list-style-type: none;
+  padding: 4px;
+  color: #333;
+}
+
+nav ul li:hover{
+  color: #A84448;
+  border-radius: 10px;
+}
+
+#sales{
+  margin-top: 60px;
+  z-index: -999;
+}
+
+p{
+  position: relative;
+  left: 20px
+}
+
+section ul{
+  padding-left: 20px 
+}
+
+section ul li:hover{
+  cursor: pointer;
+  color: #333;
+}
+
+section ul li.chicken{
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+section ul li p{
+  font-size: 16px;
+  font-weight: normal;
+  color: black
+}
+
+h4{
+  margin-left: 6px;
+}
+
+code{
+  position: relative;
+  padding: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  left: 30px;
+}
+
+hr{
+  margin: 2px 500px 10px 10px;
+  padding: 5px;
+  border: 1px dotted #FF9760;
+}
+
+.info img, p{
+  margin: 8px;
+}
+
+.steps{
+  text-decoration: underline;
+}
+
+iframe{
+  margin: 8px;
+	width: 560px; 
+	height: 315px;
+} 
+
+.info img{
+	width: 250;
+	height: 200px;
+}
+
+code, li, p{
+  z-index: -999;
+}
+
+section a, footer a{
+  color: #333
+}
+
+@media (max-width: 740px){
+  #video{
+  margin: 8px;
+	width: 360px; 
+	height: 315px;
+  }
+
+  hr{
+  margin: 2px 300px 10px 10px;
+  }
+
+  nav ul li{
+  margin-right: -10px;
+  width: 70px;
+  }
+}
+
+@media (max-width: 660px){
+  nav ul li{
+  display: block;
+  position: relative;
+  left: -150;
+  width: 100px;
+  top: 30px;
+  text-align: center;
+  background-color: #F6E1C3;
+  }
+
+  hr{
+  margin: 2px 200px 10px 10px;
+  }
+
+}
+
+@media (max-width: 620px){
+  nav ul li{
+  left: -110;
+  width: 100px;
+  }
+
+  hr{
+  margin: 2px 150px 10px 10px;
+  }
+
+}
+@media (max-width: 580px){
+  nav ul li{
+  left: -70;
+  width: 100px;
+  }
+
+  hr{
+  margin: 2px 150px 10px 10px;
+  }
+
+}
+@media (max-width: 540px){
+  nav ul li{
+  left: -40;
+  }
+
+  hr{
+  margin: 2px 80px 10px 10px;
+  }
+
+  p{
+    margin-left: -10px;
+  }
+
+}
+@media (max-width: 510px){
+  nav ul li{
+  left: -5;
+  }
+}
+@media (max-width: 475px){
+  nav ul li{
+  left: -100;
+  text-align: center;
+  width: 70px;
+  }
+}
+@media (max-width: 439px){
+  nav ul li{
+  left: -100;
+  text-align: center;
+  width: 64px;
+  }
+
+  hr{
+  margin: 2px 20px 10px 10px;
+  }
+}
+@media (max-width: 412px){
+  nav ul li{
+  left: -60;
+  text-align: center;
+  width: 67px;
+  }
+}
+@media (max-width: 383px){
+  nav ul li{
+  left: -50;
+  text-align: center;
+  width: 64px;
+  }
+
+  #video{
+  margin: 8px;
+	width: 300px; 
+	height: 315px;
+  }
+
+}
+
+** end of undefined **
+
